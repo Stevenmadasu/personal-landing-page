@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven Madasu — Product Builder & AI Enthusiast</title>
+  <meta name="description" content="Steven Madasu is a Product Management Intern, AI product builder, and Business Analytics student at the University of Iowa. Explore his projects, experience, and skills.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Steven Madasu — Product Builder & AI Enthusiast">
+  <meta property="og:description" content="Product Management Intern at CDS Global. Building AI-powered products like FindAFlight, The Fits, and GenieTunes.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/headshot.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Steven Madasu — Product Builder & AI Enthusiast">
+  <meta name="twitter:description" content="Product Management Intern at CDS Global. Building AI-powered products.">
+
+  <!-- Favicon (data URI so no extra file needed) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-content">
+      <a href="#hero" class="nav-logo" aria-label="Home">S<span>.</span>M</a>
+      <div class="nav-overlay" id="navOverlay"></div>
+      <ul class="nav-links" id="navLinks" role="menubar">
+        <li role="none"><a href="#about" role="menuitem">About</a></li>
+        <li role="none"><a href="#projects" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#experience" role="menuitem">Experience</a></li>
+        <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#contact" role="menuitem" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero section" id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi, my name is</p>
+        <h1 class="hero-name">Steven Madasu</h1>
+        <p class="hero-tagline" id="heroTagline" aria-label="Product Builder, AI Enthusiast, Business Analyst"><span class="cursor"></span></p>
+        <p class="hero-description">
+          Product Manager with a passion for building AI-driven products and leveraging data analytics to solve real problems. Currently interning at <strong>CDS Global</strong> while finishing my BBA at the <strong>University of Iowa</strong>.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary" id="cta-contact">Get in Touch</a>
+          <a href="https://linkedin.com/in/stevenmadasu" class="btn btn-outline" id="cta-resume" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="headshot-wrapper">
+          <img src="images/headshot.jpg" alt="Steven Madasu — professional headshot" class="headshot" width="320" height="320">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="fade-in">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-content fade-in">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Product Management Intern</strong> at CDS Global and a senior at the University of Iowa studying <strong>Business Analytics &amp; Information Systems</strong>. I sit at the intersection of business strategy, data analytics, and hands-on product development.
+          </p>
+          <p>
+            My approach to product management is builder-first. I don't just write requirements — I build products, run experiments, and use data to validate decisions. From AI-powered fashion apps to flight decision tools, I've shipped products that solve real user problems.
+          </p>
+          <p>
+            I've studied abroad in <strong>Italy</strong>, competed in intramural basketball and club tennis, and invested through <strong>Hawk Trade</strong> — always looking for new challenges that sharpen my analytical edge and broaden my perspective.
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="label">Education</div>
+            <div class="value">University of Iowa</div>
+            <div class="detail">BBA, Business Analytics &amp; Information Systems — GPA: 3.67</div>
+            <div class="detail">BA, Enterprise Leadership — Expected May 2026</div>
+          </div>
+          <div class="highlight-card">
+            <div class="label">Current Role</div>
+            <div class="value">PM Intern @ CDS Global</div>
+            <div class="detail">Roadmaps, requirements, stakeholder alignment, agile delivery</div>
+          </div>
+          <div class="highlight-card">
+            <div class="label">Recognition</div>
+            <div class="value">Dean's List</div>
+            <div class="detail">Fall 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="fade-in">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Products I've Built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- FindAFlight -->
+        <article class="project-card fade-in" id="project-findaflight">
+          <div class="project-icon">✈️</div>
+          <h3>FindAFlight</h3>
+          <p class="project-role">Founder &amp; Product Manager</p>
+          <p class="project-description">
+            <strong>Problem:</strong> Travelers waste hours comparing flights across multiple platforms with no single source of truth for decision-making.<br>
+            <strong>Solution:</strong> A data-driven flight decision tool that aggregates and ranks flight options so travelers can make confident booking decisions in seconds.<br>
+            <strong>Status:</strong> In development — user research complete, wireframes and product spec finalized.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Product Strategy</span>
+            <span class="tag">User Research</span>
+            <span class="tag">Data Analytics</span>
+            <span class="tag">Wireframing</span>
+          </div>
+        </article>
+
+        <!-- The Fits -->
+        <article class="project-card fade-in" id="project-thefits">
+          <div class="project-icon">👔</div>
+          <h3>The Fits</h3>
+          <p class="project-role">Founder &amp; Product Manager</p>
+          <p class="project-description">
+            <strong>Problem:</strong> People own entire closets of clothes but struggle to create cohesive outfits, leading to decision fatigue and wasted purchases.<br>
+            <strong>Solution:</strong> An AI-powered fashion app that lets users scan their wardrobe and generates head-to-toe outfit recommendations using machine learning algorithms.<br>
+            <strong>Status:</strong> MVP in progress — AI outfit generation functional, mobile UI under iteration.
+          </p>
+          <div class="project-tags">
+            <span class="tag">AI / ML</span>
+            <span class="tag">Mobile App</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Product Design</span>
+          </div>
+        </article>
+
+        <!-- GenieTunes -->
+        <article class="project-card fade-in" id="project-genietunes">
+          <div class="project-icon">🎵</div>
+          <h3>GenieTunes</h3>
+          <p class="project-role">Founder &amp; Product Manager</p>
+          <p class="project-description">
+            <strong>Problem:</strong> Content creators and casual musicians need custom, royalty-free music but lack the skills or budget to produce it.<br>
+            <strong>Solution:</strong> An AI music generator that creates original tracks based on mood, genre, and tempo inputs — making music production accessible to everyone.<br>
+            <strong>Status:</strong> Concept validated — exploring generative AI music models and partner APIs.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Generative AI</span>
+            <span class="tag">Creative Tech</span>
+            <span class="tag">API Integration</span>
+            <span class="tag">Product Validation</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="fade-in">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+      </div>
+      <div class="timeline fade-in">
+
+        <!-- CDS Global -->
+        <div class="timeline-item current" id="exp-cdsglobal">
+          <p class="timeline-date">June 2025 — Present</p>
+          <h3 class="timeline-title">Product Management Intern</h3>
+          <p class="timeline-company">CDS Global · Des Moines, IA</p>
+          <ul class="timeline-bullets">
+            <li>Contribute to product roadmaps by gathering requirements, compiling research, and supporting short and long-term planning initiatives</li>
+            <li>Document product requirements including user journeys, feature definitions, user stories, scope boundaries, and cross-team dependencies</li>
+            <li>Partner with engineering to ensure teams have clear priorities, acceptance criteria, and context for execution</li>
+            <li>Support product delivery by tracking execution metrics, validating output quality, and monitoring post-release performance</li>
+            <li>Build working relationships with stakeholders across product, analytics, operations, and client-facing teams</li>
+            <li>Support agile ceremonies including backlog refinement, sprint reviews, and status updates</li>
+          </ul>
+        </div>
+
+        <!-- John Deere -->
+        <div class="timeline-item" id="exp-deere">
+          <p class="timeline-date">April 2025 — June 2025</p>
+          <h3 class="timeline-title">Part-Time Student Quality Data Analyst</h3>
+          <p class="timeline-company">John Deere · Waterloo, IA</p>
+          <ul class="timeline-bullets">
+            <li>Analyzed large operational datasets to identify risks, anomalies, and process inefficiencies impacting business outcomes</li>
+            <li>Compiled insights and documented findings to support decision-making across engineering and operations teams</li>
+            <li>Partnered with cross-functional stakeholders to connect data analysis to system behavior and improvement opportunities</li>
+          </ul>
+        </div>
+
+        <!-- Transamerica -->
+        <div class="timeline-item" id="exp-transamerica">
+          <p class="timeline-date">May 2023 — September 2023</p>
+          <h3 class="timeline-title">Business Analyst Intern</h3>
+          <p class="timeline-company">Transamerica Life Insurance Company · Cedar Rapids, IA</p>
+          <ul class="timeline-bullets">
+            <li>Gathered and documented business and compliance-related requirements supporting financial services platforms</li>
+            <li>Cleaned, validated, and uploaded portfolio and IRA transaction data into Salesforce to support CRM accuracy and reporting</li>
+            <li>Used SQL to audit datasets, investigate discrepancies, and support compliance and reporting needs</li>
+            <li>Collaborated with technology and business stakeholders to improve documentation and operational workflows</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="fade-in">
+        <span class="section-label">Toolkit</span>
+        <h2 class="section-title">Skills &amp; Competencies</h2>
+      </div>
+      <div class="skills-grid fade-in">
+
+        <div class="skill-category" id="skills-pm">
+          <h3><span>📋</span> Product Management</h3>
+          <div class="skill-pills">
+            <span class="pill">Roadmap Support</span>
+            <span class="pill">Requirements Docs</span>
+            <span class="pill">User Stories</span>
+            <span class="pill">Backlog Refinement</span>
+            <span class="pill">Agile / Scrum</span>
+            <span class="pill">Stakeholder Communication</span>
+            <span class="pill">User Research</span>
+            <span class="pill">PRD Writing</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skills-data">
+          <h3><span>📊</span> Data &amp; Analysis</h3>
+          <div class="skill-pills">
+            <span class="pill">SQL</span>
+            <span class="pill">Python</span>
+            <span class="pill">KPI Tracking</span>
+            <span class="pill">Metrics Reporting</span>
+            <span class="pill">Research Synthesis</span>
+            <span class="pill">Data Validation</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skills-tools">
+          <h3><span>🛠️</span> Tools</h3>
+          <div class="skill-pills">
+            <span class="pill">Jira</span>
+            <span class="pill">Notion</span>
+            <span class="pill">Figma</span>
+            <span class="pill">Power BI</span>
+            <span class="pill">Salesforce</span>
+            <span class="pill">Databricks</span>
+            <span class="pill">Microsoft Office</span>
+            <span class="pill">Git / GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skills-domain">
+          <h3><span>🏦</span> Domain Interests</h3>
+          <div class="skill-pills">
+            <span class="pill">Financial Services</span>
+            <span class="pill">AI Products</span>
+            <span class="pill">Capital Markets</span>
+            <span class="pill">Compliance Workflows</span>
+            <span class="pill">Data-Driven Decision Making</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="fade-in" style="margin-top: var(--space-2xl);">
+        <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-md); color: var(--text-bright);">Certifications</h3>
+        <div class="certs-list">
+          <div class="cert-item">
+            <span class="cert-icon">🏅</span>
+            <span>Power BI: Dashboards for Beginners <span class="cert-source">· Microsoft</span></span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🏅</span>
+            <span>GitHub for Data Scientists <span class="cert-source">· LinkedIn</span></span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🏅</span>
+            <span>Kepner-Tregoe: Decision Analysis <span class="cert-source">· CIMBA</span></span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🏅</span>
+            <span>Product Management: Building a Product Strategy <span class="cert-source">· LinkedIn</span></span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🏅</span>
+            <span>Python: Working with Predictive Analytics <span class="cert-source">· LinkedIn</span></span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🏅</span>
+            <span>Bloomberg Market Concepts <span class="cert-source">· Bloomberg</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="fade-in">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+      <div class="fade-in">
+        <p class="contact-description">
+          I'm actively looking for opportunities in <strong>Product Management</strong>, <strong>AI product roles</strong>, and <strong>startup environments</strong>. Whether you have a role to discuss or just want to say hi — my inbox is always open.
+        </p>
+        <a href="mailto:stevenmadasu@gmail.com" class="contact-email" id="contact-email">stevenmadasu@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/stevenmadasu" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-linkedin">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Stevenmadasu" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-github">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="mailto:stevenmadasu@gmail.com" class="contact-link" id="contact-email-link">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Steven Madasu. All rights reserved.</p>
+      <p class="built-by">Designed &amp; built by <a href="https://github.com/Stevenmadasu" target="_blank" rel="noopener noreferrer">Steven Madasu</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
